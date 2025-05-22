@@ -1,4 +1,4 @@
-local console = require "plugin/console"
+local console = require "console"
 love.keyboard.setKeyRepeat(true) -- Not required.
 
 function love.keypressed(key, scancode, isrepeat)
