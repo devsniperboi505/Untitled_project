@@ -1,7 +1,7 @@
 local a = 1
 key1 =
 key2 =
-key3 = 
+key3 = love.keyboard.isDown("f9)
 local console = {
     lines = {},
     max_lines = 10,
@@ -77,7 +77,7 @@ function love.draw()
 end
 
 function summon()
-    if key == "," or key == "f2" or key == "f9" then
+    if key1 or key2 or key3 then
         console.isVisible = not console.isVisible
     end
 end
