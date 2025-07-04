@@ -1,5 +1,7 @@
 local a = 1
-showconsole = 
+iftrue1 =
+iftrue2 =
+iftrue3 = 
 local console = {
     lines = {},
     max_lines = 10,
