@@ -1,4 +1,5 @@
 local a = 1
+showconsole = 
 local console = {
     lines = {},
     max_lines = 10,
