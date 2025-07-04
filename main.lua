@@ -1,7 +1,7 @@
 local a = 1
-iftrue1 =
-iftrue2 =
-iftrue3 = 
+key1 =
+key2 =
+key3 = 
 local console = {
     lines = {},
     max_lines = 10,
