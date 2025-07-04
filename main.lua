@@ -1,7 +1,7 @@
 local a = 1
 key1 =
-key2 =
-key3 = love.keyboard.isDown("f9)
+key2 = love.keyboard.isdown(','
+key3 = love.keyboard.isDown("f9")
 local console = {
     lines = {},
     max_lines = 10,
