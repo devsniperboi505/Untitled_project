@@ -73,7 +73,7 @@ function love.draw()
     end
 end
 
-function love.keypressed(key)
+function summon()
     if key == "," or key == "f2" or key == "f9" then
         console.isVisible = not console.isVisible
     end
